@@ -1,0 +1,13 @@
+Na końcu dodaj w projekcie plik komendy.txt i umieść w nim przykłady komend uruchamiających powyższe dwa narzędzia, gdzie:
+
+autoprefixer-cli ma czytać z pliku style.css i zapisywać wynik do pliku style.prefixed.css (możesz przetestować działanie Autoprefixera np. wpisując w pliku style.css regułę z display: flex),
+html-validate ma wyświetlać listę błędów we wszystkich plikach .html.
+
+
+
+autoprefixer-cli -o style.prefixed.css style.css
+
+npm exec html-validate *.html
+
+
+Chyba będą te powyższe, na wzór z dokumentacji
